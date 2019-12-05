@@ -1,4 +1,4 @@
-# Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks
+# Mixup Inference
 
 This repository contains the codes for reproducing most of the results of our ICLR paper.
 
