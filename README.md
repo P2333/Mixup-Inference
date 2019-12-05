@@ -1,12 +1,12 @@
-# Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks (submitted to ICLR 2020)
+# Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks
 
-This repository contains the codes for reproducing most of the results of our ICLR submission.
+This repository contains the codes for reproducing most of the results of our ICLR paper.
 
 Paper Tittle:
 
-***Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks***
+[Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks](https://arxiv.org/pdf/1909.11515.pdf) (ICLR 2020)
 
-Anonymous authors
+Tianyu Pang*, Kun Xu* and Jun Zhu
 
 ## Environment settings and libraries we used in our experiments
 
