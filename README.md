@@ -30,7 +30,7 @@ Let `dataset` be `cifar10` or `cifar100`, the command for training models with t
 ```shell
 python train_resnet_mixup.py -model resnet50 -lr 0.01 -adv_ratio 0. -mixup_alpha 1. -data [dataset] -bs 64
 ```
-When applying mixup, the initial learning rate is `0.01`, the alpha is `1.0`, the optimizer is `mom` and we use the `ResNet-50` architecture proposed by [He et al. (2016)](https://arxiv.org/abs/1603.05027). The training epoch on both CIFAR-10 and CIFAR-100 is set as 200.
+When applying mixup, the initial learning rate is `0.01`, the alpha is `1.0`, the optimizer is `mom` and we use the `ResNet-50` architecture proposed by [He et al. (2016)](https://arxiv.org/abs/1603.05027). The training epoch on both CIFAR-10 and CIFAR-100 is set as 200. [Pretrained model checkpoint](http://ml.cs.tsinghua.edu.cn/~tianyu/MixupInference/model_checkpoints/model_mixup.ckpt) is avaiable.
 
 ### Training with the interpolated AT mechinism
 
@@ -38,7 +38,7 @@ The command for training models with the interpolated AT mechanism is
 ```shell
 python train_resnet_mixup.py -model resnet50 -lr 0.1 -adv_ratio 0.5 -mixup_alpha 1. -data [dataset] -bs 64
 ```
-When applying interpolated AT, the initial learning rate is `0.1`, the alpha is `1.0`, the optimizer is `mom`. The ratio between the clean samples and the adversarial ones is 1:1.
+When applying interpolated AT, the initial learning rate is `0.1`, the alpha is `1.0`, the optimizer is `mom`. The ratio between the clean samples and the adversarial ones is 1:1. [Pretrained model checkpoint](http://ml.cs.tsinghua.edu.cn/~tianyu/MixupInference/model_checkpoints/model_IAT.ckpt) is avaiable.
 
 
 ## Evaluation codes
