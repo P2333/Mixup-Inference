@@ -4,7 +4,7 @@ This repository contains the codes for reproducing most of the results of our pa
 
 Paper Tittle:
 
-[Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks](https://arxiv.org/pdf/1909.11515.pdf) (ICLR 2020)
+[Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks](https://openreview.net/forum?id=ByxtC2VtPB&noteId=ByxtC2VtPB) (ICLR 2020)
 
 Tianyu Pang*, Kun Xu* and Jun Zhu
 
