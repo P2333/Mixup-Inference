@@ -43,7 +43,7 @@ When applying interpolated AT, the initial learning rate is `0.1`, the alpha is 
 
 ## Evaluation codes
 
-We mainly evluate the PGD attacks for different inference-phase defenses. Here the `eps` is by default `8/255`, the pixels are normalized to the interval `[-1,1]`.
+We mainly evluate the PGD attacks for different inference-phase defenses. Here the `eps` is by default `8/255`, the pixels are normalized to the interval `[-1,1]`. **About the detailed parameter settings to re-implement the results in our paper, please refer to Table 4 and Table 5 in our appendix.**
 
 ### Evaluating MI-PL
 
@@ -59,7 +59,7 @@ Similar to the command for MI-PL, the one for evaluating MI-OL is
 ```shell
 python attack_resnet_mixuptest_OL.py -targeted=False -nbiter=10 -data=[dataset] -model=resnet50 -oldmodel=model_checkpoint/model.ckpt -lamda=0.5
 ```
-Here `lamda` is the mixup ratio for MI-OL.
+Here `lamda` is the mixup ratio for MI-OL, where we use `lamda=0.5` for mixup+MI-OL and `lamda=0.6` for IAT+MI-OL.
 
 ### Evaluating MI-Combined
 
